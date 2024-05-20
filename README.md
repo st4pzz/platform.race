@@ -7,28 +7,28 @@ Este repositório contém os microserviços que compõem a Plataforma Race, uma 
 
 # Microserviços da Plataforma Race
 
-- platform.race.account: [Github](
+- platform.race.account: [Account](
 https://github.com/st4pzz/platform.race.account)
-- platform.race.account-resource: [Github](
+- platform.race.account-resource: [Account-Resource](
 https://github.com/st4pzz/platform.race.account-resource)
-- platform.race.auth: [Github](
+- platform.race.auth: [Auth](
 https://github.com/st4pzz/platform.race.auth)
-- platform.race.auth-resource: [Github](
+- platform.race.auth-resource: [Auth-Resource](
 https://github.com/st4pzz/platform.race.auth-resource)
-- platform.race.jogador: [Github](
+- platform.race.jogador: [Jogador](
 https://github.com/st4pzz/platform.race.jogador)
 - platform.race.jogador-resource: [Github](
 https://github.com/st4pzz/platform.race.jogador-resource)
-- platform.race.partida: [Github](
+- platform.race.partida: [Partida](
 https://github.com/st4pzz/platform.race.partida)
-- platform.race.partida-resource: [Github](
+- platform.race.partida-resource: [Resource](
 https://github.com/st4pzz/platform.race.partida-resource)
-- platform.race.gateway: [Github](
+- platform.race.gateway: [Gateway](
 https://github.com/st4pzz/platform.race.gateway)
-- platform.race.discovery: [Github](
+- platform.race.discovery: [Discovery](
 https://github.com/st4pzz/platform.race.discovery)
-- platform.race.ops: [Github](
+- platform.race.ops: [Ops](
 https://github.com/st4pzz/platform.race.ops)
-- platform.race.docker-api: [Github](
+- platform.race.docker-api: [API](
 https://github.com/st4pzz/platform.race.docker-api)
 
