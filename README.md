@@ -17,11 +17,11 @@ https://github.com/st4pzz/platform.race.auth)
 https://github.com/st4pzz/platform.race.auth-resource)
 - platform.race.jogador: [Jogador](
 https://github.com/st4pzz/platform.race.jogador)
-- platform.race.jogador-resource: [Github](
+- platform.race.jogador-resource: [Jogador-Resource](
 https://github.com/st4pzz/platform.race.jogador-resource)
 - platform.race.partida: [Partida](
 https://github.com/st4pzz/platform.race.partida)
-- platform.race.partida-resource: [Resource](
+- platform.race.partida-resource: [Partida-Resource](
 https://github.com/st4pzz/platform.race.partida-resource)
 - platform.race.gateway: [Gateway](
 https://github.com/st4pzz/platform.race.gateway)
@@ -29,6 +29,6 @@ https://github.com/st4pzz/platform.race.gateway)
 https://github.com/st4pzz/platform.race.discovery)
 - platform.race.ops: [Ops](
 https://github.com/st4pzz/platform.race.ops)
-- platform.race.docker-api: [API](
+- platform.race.docker-api: [Docker-API](
 https://github.com/st4pzz/platform.race.docker-api)
 
