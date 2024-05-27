@@ -31,5 +31,5 @@ https://github.com/st4pzz/platform.race.discovery)
 https://github.com/st4pzz/platform.race.ops)
 - platform.race.docker-api: [Docker-API](
 https://github.com/st4pzz/platform.race.docker-api)
-- Apresentação do projeto: [Apresentação](https://www.canva.com/design/DAGGEyLPpZ4/MLk_30gg2IkgaoA040JO-Q/edit?utm_content=DAGGEyLPpZ4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Apresentação do projeto: [Apresentação](https://www.canva.com/design/DAGGEyLPpZ4/xK-BZLlWuXnUfo4MSsmdCA/view?utm_content=DAGGEyLPpZ4&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
