@@ -43,4 +43,3 @@ https://github.com/st4pzz/platform.race.docker-api)
 ### Sergio Ramella ([Github Sergio Ramella](https://github.com/st4pzz))
 
 - In-Memory Database | Redis, Giuliana Bezerra
-- [AWS Deploy]()
