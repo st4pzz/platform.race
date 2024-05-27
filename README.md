@@ -33,3 +33,14 @@ https://github.com/st4pzz/platform.race.ops)
 https://github.com/st4pzz/platform.race.docker-api)
 - Apresentação do projeto: [Apresentação](https://www.canva.com/design/DAGGEyLPpZ4/xK-BZLlWuXnUfo4MSsmdCA/view?utm_content=DAGGEyLPpZ4&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
+# Microserviços Individuais da Plataforma Race
+
+### Alexandre Wever ([Github Alexandre Wever](https://github.com/WeeeverAlex))
+
+- Resiliência | Spring Cloud Circuit Breaker
+- [AWS Deploy](http://ab2f11565dce840b4958ce7a79da35ce-1787878981.us-east-1.elb.amazonaws.com:8080/hello)
+
+### Sergio Ramella ([Github Sergio Ramella](https://github.com/st4pzz))
+
+- In-Memory Database | Redis, Giuliana Bezerra
+- [AWS Deploy]()
