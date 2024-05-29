@@ -31,6 +31,9 @@ https://github.com/st4pzz/platform.race.discovery)
 https://github.com/st4pzz/platform.race.ops)
 - platform.race.docker-api: [Docker-API](
 https://github.com/st4pzz/platform.race.docker-api)
+- platform.race.redis: [redis-API](
+[https://github.com/st4pzz/platform.race.docker-api](https://github.com/st4pzz/platform.race.redis))
+
 - Apresentação do projeto: [Apresentação](https://www.canva.com/design/DAGGEyLPpZ4/xK-BZLlWuXnUfo4MSsmdCA/view?utm_content=DAGGEyLPpZ4&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 # Microserviços Individuais da Plataforma Race
