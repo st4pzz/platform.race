@@ -12,6 +12,7 @@ A arquitetura do Platform.Race é baseada em uma abordagem de microsserviços, p
 - **Backend:** Utilizando a linguagem de programação Java, conhecida por sua robustez, segurança e ampla utilização no desenvolvimento de aplicações corporativas. Optamos por Java devido à sua versatilidade e ao suporte de uma vasta comunidade de desenvolvedores, o que facilita a manutenção e evolução contínua do sistema.
   
   - **Spring Boot:** Escolhemos o Spring Boot para simplificar o desenvolvimento de aplicações Java, fornecendo uma estrutura de microserviços que permite criar, executar e escalar serviços de maneira eficiente.
+  - **Maven:** Utilizamos o Maven como ferramenta de automação de compilação e gerenciamento de dependências. O Maven facilita a configuração do projeto, o gerenciamento de bibliotecas externas e a construção do aplicativo, tornando o desenvolvimento mais eficiente e organizado.
 
 ## 3. ![image](https://github.com/st4pzz/platform.race/assets/89090868/881e3122-8356-4c4c-9c71-30628992bbb2)
 
@@ -49,9 +50,23 @@ Para facilitar o desenvolvimento local, utilizamos o Docker Compose para orquest
 - `jenkins/`: Pipeline de configuração do Jenkins.
 - `docker/`: Arquivos de configuração do Docker Compose.
 
-
 O código-fonte e a configuração dos nossos serviços estão disponíveis no GitHub no repositório [Platform.Race](https://github.com/st4pzz/platform.race).
 
+- **platform.race.account**: Gerenciamento de contas de usuários.
+- **platform.race.account-resource**: Recursos relacionados a contas de usuários.
+- **platform.race.auth**: Autenticação e autorização.
+- **platform.race.auth-resource**: Recursos relacionados à autenticação.
+- **platform.race.jogador**: Gerenciamento de jogadores.
+- **platform.race.jogador-resource**: Recursos relacionados a jogadores.
+- **platform.race.partida**: Gerenciamento de partidas.
+- **platform.race.partida-resource**: Recursos relacionados a partidas.
+- **platform.race.gateway**: Gateway API.
+- **platform.race.discovery**: Serviço de descoberta.
+- **platform.race.ops**: Operações e monitoramento.
+- **platform.race.docker-api**: API Docker.
+- **platform.race.redis**: Cache Redis.
+- **platform.race.db**: Banco de dados.
+- **soccer-platform.store**: Armazenamento de dados da plataforma.
 
 | **Microserviço**                     | **Link**                                                                                                                                           |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -71,6 +86,215 @@ O código-fonte e a configuração dos nossos serviços estão disponíveis no G
 | **platform.race.db**                     | [DB](https://github.com/WeeeverAlex/platform.race.db)                                                                                              |
 | **Apresentação do projeto**          | [Apresentação](https://www.canva.com/design/DAGGEyLPpZ4/xK-BZLlWuXnUfo4MSsmdCA/view?utm_content=DAGGEyLPpZ4&utm_campaign=designshare&utm_medium=link&utm_source=editor) |
 | **FrontEnd**                         | [FrontEnd](https://github.com/st4pzz/soccer-platform.store)                                                                                        |
+
+```
+platform.race/
+├── account/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── insper/
+│   │   │   │       └── store/
+│   │   │   │           └── account/
+│   │   │   │               ├── AccountController/
+│   │   │   │               ├── AccountIn/
+│   │   │   │               ├── AccountOut/
+│   │   │   │               └── LoginIn/
+│   │   └── resources/
+│   └── .gitignore
+│   ├── Jenkinsfile
+│   ├── README.md
+│   └── pom.xml
+├── account-resource/
+│   ├── k8s/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── insper/
+│   │   │   │       └── store/
+│   │   │   │           └── account/
+│   │   │   │               ├── Account/
+│   │   │   │               ├── AccountApplication/
+│   │   │   │               ├── AccountModel/
+│   │   │   │               ├── AccountParser/
+│   │   │   │               ├── AccountRepository/
+│   │   │   │               ├── AccountResource/
+│   │   │   │               └── AccountService/
+│   │   └── resources/
+│   ├── .gitignore
+│   ├── Dockerfile
+│   ├── Jenkinsfile
+│   ├── README.md
+│   └── pom.xml
+├── auth/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── insper/
+│   │   │   │       └── store/
+│   │   │   │           └── auth/
+│   │   │   │               ├── AuthController/
+│   │   │   │               ├── CredentialIn/
+│   │   │   │               ├── LoginOut/
+│   │   │   │               ├── RegisterIn/
+│   │   │   │               ├── SolveIn/
+│   │   │   │               └── SolveOut/
+│   │   └── resources/
+│   ├── .gitignore
+│   ├── Jenkinsfile
+│   ├── README.md
+│   └── pom.xml
+├── auth-resource/
+│   ├── k8s/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── insper/
+│   │   │   │       └── store/
+│   │   │   │           └── auth/
+│   │   │   │               ├── AuthApplication/
+│   │   │   │               ├── AuthResource/
+│   │   │   │               ├── AuthService/
+│   │   │   │               ├── Credential/
+│   │   │   │               ├── JwtService/
+│   │   │   │               ├── Register/
+│   │   │   │               └── Token/
+│   │   └── resources/
+│   ├── .gitignore
+│   ├── Dockerfile
+│   ├── Jenkinsfile
+│   ├── README.md
+│   └── pom.xml
+├── jogador/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── insper/
+│   │   │   │       └── store/
+│   │   │   │           └── jogador/
+│   │   │   │               ├── JogadorController/
+│   │   │   │               ├── JogadorIn/
+│   │   │   │               └── JogadorOut/
+│   │   └── resources/
+│   ├── .gitignore
+│   ├── Jenkinsfile
+│   ├── README.md
+│   └── pom.xml
+├── jogador-resource/
+│   ├── k8s/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── insper/
+│   │   │   │       └── store/
+│   │   │   │           └── jogador/
+│   │   │   │               ├── Jogador/
+│   │   │   │               ├── JogadorApplication/
+│   │   │   │               ├── JogadorModel/
+│   │   │   │               ├── JogadorParser/
+│   │   │   │               ├── JogadorRepository/
+│   │   │   │               ├── JogadorResource/
+│   │   │   │               └── JogadorService/
+│   │   └── resources/
+│   ├── .gitignore
+│   ├── Dockerfile
+│   ├── Jenkinsfile
+│   ├── README.md
+│   └── pom.xml
+├── partida/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── insper/
+│   │   │   │       └── store/
+│   │   │   │           └── partida/
+│   │   │   │               ├── PartidaController/
+│   │   │   │               ├── PartidaIn/
+│   │   │   │               └── PartidaOut/
+│   │   └── resources/
+│   ├── .gitignore
+│   ├── Jenkinsfile
+│   ├── README.md
+│   └── pom.xml
+├── partida-resource/
+│   ├── k8s/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── insper/
+│   │   │   │       └── store/
+│   │   │   │           └── partida/
+│   │   │   │               ├── Partida/
+│   │   │   │               ├── PartidaApplication/
+│   │   │   │               ├── PartidaModel/ 
+│   │   │   │               ├── PartidaParser/
+│   │   │   │               ├── PartidaRepository/
+│   │   │   │               ├── PartidaResource/
+│   │   │   │               └── PartidaService/
+│   │   └── resources/
+│   ├── .gitignore
+│   ├── Dockerfile
+│   ├── Jenkinsfile
+│   ├── README.md
+│   └── pom.xml
+├── gateway/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── insper/
+│   │   │   │       └── store/
+│   │   │   │           └── gateway/
+│   │   │   │               ├── GatewayApplication/
+│   │   │   │               ├── GatewayConfiguration/
+│   │   │   │               ├── GatewayResource/
+│   │   │   │               └── security
+│   │   │   │                   ├── AuthenticationFilter/
+│   │   │   │                   └── RouterValidator/
+│   │   └── resources/
+│   ├── .gitignore
+│   ├── Dockerfile
+│   ├── Jenkinsfile
+│   ├── README.md
+│   └── pom.xml
+├── discovery/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── insper/
+│   │   │   │       └── store/
+│   │   │   │           └── discovery/
+│   │   │   │               └── DiscoveryApplication/
+│   │   └── resources/
+│   ├── .gitignore
+│   ├── Dockerfile
+│   ├── Jenkinsfile
+│   ├── README.md
+│   └── pom.xml
+├── ops/
+│   ├── k8s
+│   ├── .gitignore
+│   ├── README.md
+│   └── docker-compose.yaml
+├── docker-api/
+│   ├── .gitignore
+│   ├── README.md
+│   └── docker-compose.yaml
+├── redis/
+│   ├── k8s
+│   ├── .gitignore
+│   ├── Jenkinsfile
+│   └── README.md
+├── db/
+│   ├── k8s
+│   ├── .gitignore
+│   ├── Jenkinsfile
+│   └── README.md
+├── store/
+│   ├── front/
+│   └── README.md
+```
+
+Você pode incluir esta estrutura no README do repositório `platform.race` para documentar a organização do projeto. Se precisar de mais alguma coisa ou de ajustes, por favor, me avise!
 
 ## 7. **Microserviços Individuais da Plataforma Race**
 
