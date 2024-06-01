@@ -60,6 +60,11 @@ O código-fonte e a configuração dos nossos serviços estão disponíveis no G
 | **platform.race.docker-api**         | API Docker.                                               | [Docker-API](https://github.com/st4pzz/platform.race.docker-api)                                                                                   |
 | **platform.race.redis**              | Cache Redis.                                              | [Redis](https://github.com/st4pzz/platform.race.redis)                                                                                             |
 | **platform.race.db**                 | Banco de dados.                                           | [DataBase](https://github.com/WeeeverAlex/platform.race.db)                                                                                        |
+
+
+
+| **Integrações**                     | **Descrição**                                             | **Link**                                                                                                                                           |
+|--------------------------------------|-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | **FrontEnd**                         | Repositório do FrontEnd na plataforma GitHub.             | [FrontEnd](https://github.com/st4pzz/soccer-platform.store)                                                                                        |
 | **Apresentação do projeto**          | Apresentação do projeto na plataforma Canva.              | [Apresentação](https://www.canva.com/design/DAGGEyLPpZ4/xK-BZLlWuXnUfo4MSsmdCA/view?utm_content=DAGGEyLPpZ4&utm_campaign=designshare&utm_medium=link&utm_source=editor) |
                                                     
