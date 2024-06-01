@@ -69,7 +69,7 @@ O código-fonte e a configuração dos nossos serviços estão disponíveis no G
 | **Apresentação do projeto**          | Apresentação do projeto na plataforma Canva.              | [Apresentação](https://www.canva.com/design/DAGGEyLPpZ4/xK-BZLlWuXnUfo4MSsmdCA/view?utm_content=DAGGEyLPpZ4&utm_campaign=designshare&utm_medium=link&utm_source=editor) |
                                                     
 
-### **Estrutura do Repositório:**
+### **Estrutura do Projeto Race:**
 
 ```
 platform.race/
