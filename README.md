@@ -283,7 +283,7 @@ platform.race/
 **Sergio Ramella ([Github Sergio Ramella](https://github.com/st4pzz))**
 
 - In-Memory Database | Redis, Giuliana Bezerra
-- 
+- [AWS Deploy]([http://ab2f11565dce840b4958ce7a79da35ce-1787878981.us-east-1.elb.amazonaws.com:8080/hello](http://a54f47d3a5e464d3cba1f1d46f356f4d-1734185586.us-east-2.elb.amazonaws.com/hello))
 
 ## 7. Conclusão
 O Platform.Race é uma plataforma robusta e escalável, construída com as melhores práticas de desenvolvimento e utilizando tecnologias modernas para garantir desempenho e facilidade de manutenção.
