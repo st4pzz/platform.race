@@ -13,7 +13,7 @@ A arquitetura do Platform.Race é baseada em uma abordagem de microsserviços, p
   - **Spring Boot:** Escolhemos o Spring Boot para simplificar o desenvolvimento de aplicações Java, fornecendo uma estrutura de microserviços que permite criar, executar e escalar serviços de maneira eficiente.
   - **Maven:** Utilizamos o Maven como ferramenta de automação de compilação e gerenciamento de dependências. O Maven facilita a configuração do projeto, o gerenciamento de bibliotecas externas e a construção do aplicativo, tornando o desenvolvimento mais eficiente e organizado.
 
-## 2. ![image](https://github.com/st4pzz/platform.race/assets/89090868/881e3122-8356-4c4c-9c71-30628992bbb2)
+## 2. <img src="https://github.com/st4pzz/platform.race/assets/89090868/881e3122-8356-4c4c-9c71-30628992bbb2" width="50%" height="auto">
 
 O Kubernetes é utilizado para orquestrar os contêineres do projeto, garantindo a disponibilidade, escalabilidade e gerenciamento dos microsserviços.
 
@@ -23,7 +23,7 @@ O Kubernetes é utilizado para orquestrar os contêineres do projeto, garantindo
 - **Ingress:** Utilizamos o Ingress para gerenciar o acesso externo aos serviços do Kubernetes, configurando regras de roteamento.
 - **ConfigMaps e Secrets:** Armazenamos configurações e segredos de maneira segura e eficiente.
 
-## 3. ![image](https://github.com/st4pzz/platform.race/assets/89090868/1d66ba4d-ca61-4f9a-ba7d-6c016d9117b6)
+## 3. <img src="https://github.com/st4pzz/platform.race/assets/89090868/1d66ba4d-ca61-4f9a-ba7d-6c016d9117b6" width="50%" height="auto">
 
 O Jenkins é utilizado como nossa ferramenta de integração contínua e entrega contínua (CI/CD), automatizando o processo de construção, teste e implantação dos microsserviços.
 
@@ -32,7 +32,7 @@ O Jenkins é utilizado como nossa ferramenta de integração contínua e entrega
 - **Test:** Executamos testes automatizados para garantir a qualidade do código.
 - **Deploy:** Implantamos a aplicação no Kubernetes após a aprovação dos testes.
 
-## 4. ![image](https://github.com/st4pzz/platform.race/assets/89090868/c0c389d7-6229-468e-bedd-bf33acd11d69)
+## 4. <img src="https://github.com/st4pzz/platform.race/assets/89090868/c0c389d7-6229-468e-bedd-bf33acd11d69" width="50%" height="auto">
 
 Para facilitar o desenvolvimento local, utilizamos o Docker Compose para orquestrar os serviços em contêineres.
 
