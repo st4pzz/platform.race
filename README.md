@@ -300,11 +300,12 @@ Gostaríamos de expressar nossa gratidão ao professor Humberto Sandmann pela di
 
 ## 10. Desenvolvedores
 
-**Alexandre Wever ([Github Alexandre Wever](https://github.com/WeeeverAlex))**
+**Alexandre Wever** ([Github Alexandre Wever](https://github.com/WeeeverAlex))
 
 <img src="https://github.com/st4pzz/platform.race/assets/89090868/c5e7f9d0-2c4d-4867-994a-084b404f731a" width="25%" height="auto">
 
-**Sergio Ramella ([Github Sergio Ramella](https://github.com/st4pzz))**
+**Sergio Ramella** ([Github Sergio Ramella](https://github.com/st4pzz))
 
 <img src="https://github.com/st4pzz/platform.race/assets/89090868/90cc47f9-fb43-44c9-8c22-0ad769b11217" width="25%" height="auto">
+
 
